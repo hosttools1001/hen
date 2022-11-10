@@ -1,0 +1,189 @@
+body{
+    background-image: linear-gradient(to top,rgba(0, 0, 255, 0.527),rgba(35, 35, 211, 0.719),rgba(6, 6, 150, 0.877));
+    
+    background-size: 100%;
+           
+        }
+    
+        h1{
+            text-align: center;
+            border-radius: 45px 45px 0px 0px;
+            padding: 0px 3px 0px 3px;
+            width: auto;
+            height: auto;
+            color: aliceblue;
+            background-color: rgba(60 44 44 / 36%);
+            border: 1px solid black;
+           
+        }
+  
+
+        .div1{
+
+            border: 1px solid black;
+            padding: 0px 3px 0px 3px;
+            margin-left: -3px;
+            margin-right: -3px;
+            height: 10px;
+            background-color: rgba(13 134 66 / 54%) ;         
+        }
+        
+        .div3{
+            border: 2px solid black;
+            text-align: center;
+            max-width: 900px;
+            min-height: 510px;
+            margin: 13px auto;
+            border-radius: 0px 0px 45px 45px;
+            background-image: url(../img/PS43.gif) ;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: 102%;
+            background-color: #01018b;
+            
+        }
+
+        nav{
+            text-align: center;
+            border: 2px solid black;
+            background-color: rgb(128, 128, 128);
+            display: inline-block;
+            height: 200px;
+            width: 150px;
+            margin: 20px auto;
+            border-radius: 1px 50px;
+            transition: 0.5s all;
+            box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.699);
+            
+        }
+        
+        nav:hover {
+            text-align: center;
+            border: 2px solid black;
+            background-color: rgba(128, 128, 128, 0.555);
+            display: inline-block;
+            height: 220px;
+            width: 170px;
+            margin: 20px auto;
+            border-radius: 1px 50px;
+            transition: 0.5s all;
+          
+        }
+        .p2{
+            color: white;
+            background-color: red;
+            border: 2px solid black;
+            margin: 0px 0px;
+            border-radius: 1px 37px;
+            width: 120px;
+            padding: 7px;
+            transition: 0.5s all;
+            
+        }
+        .p2:hover{
+            color: white;
+            background-color: rgba(13, 134, 66, 0.815);
+            border: 2px solid black;
+            margin: 0px 0px;
+            border-radius: 1px 37px;
+            width: 130px;
+            padding: 7px;
+            transition: 0.5s all;
+            
+            
+            
+        }
+     
+        .p1{
+            color: white;
+            background-color: red;
+            border: 2px solid black;
+            margin: 0px 0px;
+            border-radius: 1px 37px;
+            width: 120px;
+            padding: 7px;
+            transition: 0.5s all;
+            
+        }
+        .p1:hover{
+            color: white;
+            background-color: rgba(13, 134, 66, 0.815);
+            border: 2px solid black;
+            margin: 0px 0px;
+            border-radius: 1px 37px;
+            width: 130px;
+            padding: 7px;
+            transition: 0.5s all;
+            cursor: pointer;
+            
+            
+        }
+        .p1:active {
+            transform: scale(0.98);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        }        
+        
+     
+        .hen9{
+            color: white;
+            background-color: red;
+            border: 2px solid black;
+            padding: 5px;
+            width: 76px;
+            height: 18px;
+            margin: 26px auto;
+            border-radius: 20px 20px 20px 20px;
+            transition: 0.5s all;
+            cursor: pointer;
+            
+        }
+
+        .hen9:hover{
+            color: white;
+            background-color: rgba(13, 134, 66, 0.815);
+            border: 2px solid black;
+            padding: 5px;
+            width: 86px;
+            height: 18px;
+            margin: 26px auto;
+            border-radius: 20px 20px 20px 20px;
+            transition: 0.5s all;
+        }
+        .hen9:active {
+            transform: scale(0.98);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        
+        
+        }
+        .hen5{
+            color: white;
+            background-color: red;
+            border: 2px solid black;
+            padding: 5px;
+            width: 76px;
+            height: 18px;
+            margin: 0px auto;
+            border-radius: 20px 20px 20px 20px;
+            transition: 0.5s all;
+        }
+        .hen5:hover{
+            color: white;
+            background-color: rgba(13, 134, 66, 0.815);
+            border: 2px solid black;
+            padding: 5px;
+            width: 86px;
+            height: 18px;
+            margin: 26px auto;
+            border-radius: 20px 20px 20px 20px;
+            transition: 0.5s all;
+            cursor: pointer;
+        }
+        .hen5:active {
+            transform: scale(0.98);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+       
