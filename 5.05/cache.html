@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>GoldHEN (5.05)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    background-color: #242629;
+  }
+
+  .loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -75px;
+
+    border: 10px solid #1f1e1e;
+    border-radius: 50%;
+    border-top: 10px solid #044595;
+    border-left: 10px solid #044595;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .info {
+    overflow: hidden;
+    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #b8b8b8;
+
+    transform: translate(-50%, -50%);
+  }
+</style>
+
+<script>
+    if (window.applicationCache.status=='0'){window.location.replace("cache.html");}
+    </script>
+</head>
+<body>
+    <div id=loader class=loader><div class=ib2></div><div class=ib2></div><div class=loaderO></div><div class=ib2></div></div>
+    <div id=done class=done style=display:none><br><div class=ib></div><div id=PSBUTTON></div><div class=ib></div></div>
+    <div id=fail class=info style=display:none></div>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./promise-polyfill.min.js"></script>
+    <script src="./common.js"></script>
+    <script src="./default.js"></script>
+</body>
+</html>
